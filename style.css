@@ -1,0 +1,421 @@
+body{
+    font-family: 'Century Gothic',Calibri,serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    background-color:cornflowerblue;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+header{
+    height: 0px;
+}
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #c5c5c5;
+    border-top: 2px solid #AAA;
+    
+
+}
+nav {
+   
+    width: 100%;
+    background-color: #424558;
+    position: sticky;
+    top:0px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    color:aliceblue;
+    font-size: 16px;
+}
+.menu{
+    display:table;
+    margin: 0 auto;
+    
+}
+.menu img{
+    border-radius: 50%;
+    width: 28px;
+} 
+.menu-index:hover , .sec1, .secexp1 , .secchoaib{
+    border-top: 5px solid blue;
+    background-color: RGBa(64,200,130,0.15);
+}
+.menu-exp:hover , .sec2{
+    border-top: 5px solid blue;
+    background-color: RGBa(64,200,130,0.15);
+}
+.menu-pro:hover, .sec3 {
+    border-top: 5px solid blue;
+    background-color: RGBa(64,200,130,0.15);
+}
+.menu-con:hover{
+    border-top: 5px solid blue;
+    background-color: RGBa(64,200,130,0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+@media screen and (max-width:780px)
+{
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+    
+    .inforamation_gouche img{
+       border-radius: 0%;
+    width: 25px; 
+        
+    }
+    .image img{
+          border-radius: 50%;
+    width: 100px;  
+    }
+    
+    .blue{
+   	height: 290px;
+	width: 300px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+    
+}
+    .blue img{
+        height: 300;
+        width: 320;
+    }
+}
+@media screen and (max-width:1100px)
+{
+
+    .image img{
+          border-radius: 50%;
+    width: 100px;  
+    }
+    
+}
+.sec1 img{
+    border-radius: 50%;
+    width: 200px;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    
+    
+}
+.sec2 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.secexp1 img{
+    border-radius: 50%;
+    width: 200;
+    height: 200px;
+}
+section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+.article{
+   
+    
+}
+.sec21{
+    margin: 0px 10%;
+}
+.sec{
+    margin: 0px 10%;
+}
+.sec31, .leftleft, .leftright{ 
+    margin: 0px 10%;
+}
+.secchoaib img{
+    
+    width: 50px;
+    height: 50px;
+}
+
+.left, .secleft{
+    
+    float: left;
+    width: 30%;
+}
+.right, .secright{
+    
+    float: left;
+    width: 70%;
+}
+.sec31left , .sec31right , .sec311left, .sec311right, .leftleft, .leftright{
+    width: 50%;
+    float: left;
+}
+.sec1::after, .sec2::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+} 
+.haut::after, .centre1::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+} 
+.centre1{
+    
+    height: 450px;
+    background-color: brown;
+    margin-top: 10px;  
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 2%;
+    color:white;
+    
+}
+.bas{
+    
+    height: 450px;
+    background-color: darkgoldenrod;
+    margin-top: 10px;  
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 2%;
+    color:white;
+    
+}
+.haut{
+    
+   
+    background-color: crimson;
+    margin-top: 5px;  
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 2%;
+    color:white;
+    
+}
+.secchoaib::after, nav::after{
+   content: "";
+    display: table;
+    clear: both; 
+}
+
+.detail{
+    background-color: rgba(0, 0, 10, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.not{
+    background-color: rgba(0, 0, 10, 0.2);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+
+}
+.white{
+       	height: 450px;
+	width: 250px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	border-radius: 4px;
+    top: 75px;
+    margin-left: 900px;
+    display: none;
+    border-top-style:groove;
+     border-left-style: groove;
+    border-top-left-radius: 10px;
+    border-color: #424558;
+    border-collapse: collapse;
+    
+    
+}
+.white:after{ content: ' '; width: 0px; height: 0px; border-top: 10px solid #ffc728; border-left: 10px solid transparent; border-bottom:10px solid transparent; border-right:10px solid transparent; position: absolute; left: 50%; top: 100%; margin-left: -10px; }
+.bro{
+           	height: 100px;
+	width: 300px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	border-radius: 4px;
+    bottom: 75px;
+    margin-left: 550px;
+    display: none;
+
+    
+}
+.bro:hover{
+   display: flex;  
+}
+
+
+.whiteleft::after, .whiteright::after{
+        content: "";
+    display: table;
+    clear: both;
+    
+}
+.whiteleft{
+    margin-top: 20px;
+    float: left;
+    width: 30%;
+    
+}
+.whiteright{
+    margin-top: 20px;
+   float: left;
+    width: 50%; 
+}
+.l3{
+    text-align: left;
+}
+
+
+.button {
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+    &:hover {
+        background-color: white;
+        color: $blue;
+        border: 2px solid $blue;
+    }
+.blue{
+   	height: 420px;
+	width: 600px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+    
+}
+.mycontact{
+    width: :100%;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: rgba(0,0,0,0.5);
+    transform: rotate(45deg);
+    cursor: pointer;
+    &:hover {
+        color: red;
+    }
+}
+.close:hover{
+    color: red;
+}
+.gouche{
+    position: sticky;
+    top:80px;
+    float: left;
+    width: 20%;
+    background-color: 424558;
+    
+    margin-top: 10px;  
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    color:white;
+}
+.droite{
+    
+    text-align: center;
+    float: left;
+    width: 70%;
+    
+}
+.gouche img{
+    height: 200px;
+    border-radius: 50%;
+}
+.gouche .inforamation_gouche img{
+   height: 20px; 
+    border-radius: 0%;
+}
+.inforamation_gouche{
+    float: left;
+    width: 25%;
+}
+.inforamation_droite{
+    float: left;
+    width: 30%;
+}
+.article::after{
+    content: "";
+    display: table;
+    clear: both; 
+    
+}
+.information{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#myid 
+{
+    
+    
+      
+}
+#tw{
+    
+}
+#tw:hover{
+}
+
+      
+      

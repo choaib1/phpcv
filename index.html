@@ -1,0 +1,167 @@
+<html lang="fr-FR">
+<head>
+    <title> mon CV </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="abdoune mouhamed cv">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="jq.js"></script>
+
+</head>
+<body>
+<header>
+   <h1>  </h1> 
+</header>
+   <nav>
+      <div class="menu">
+       <ul>
+             <li class="menu-img">
+               <a href="#"> <img src="img/mypic.jpg"></a>
+           </li>
+           <li class="menu-index">
+               <a href="#sec1" id="link1">  Accueil</a>
+           </li>
+           <li class="menu-exp">
+               <a href="#sec2" id="link2">Expérience Professionnelles</a>
+               
+           </li>
+           <li class="menu-pro">
+               <a href="#sec2 " >Mes Projets </a>
+           </li>
+           <li class="menu-con">
+               <a href="#sec3" id="link3"> Contactez-moi</a>
+           </li>
+       </ul>
+    </div>
+      
+   </nav>
+   <article>
+       <section id="sec1"class="sec1">
+         <div class="sec">
+         <h1>Qui suis-je ? </h1>
+          <div class="left">
+             <img src="img/mypic.jpg" >
+          </div>   
+          <div class="right">
+            <p> Je m'appelle Abdoune Mouhamed ....</p> 
+            <p>.....</p> 
+          </div>
+          </div>
+       </section>
+       <section id="sec2" class="sec2">
+          <h1>Parcoure et expérience </h1>
+           <div class="sec21">
+            <h2>  Expérience professionnelles</h2> 
+           
+           <div class="sec22">
+               <div class="left">
+                   <h3>2017-2018</h3>
+               </div>
+               <div class="right">
+                  <h3> site web </h3>
+                  <p> ......</p>
+                  <p> ......</p>
+                  <p> ......</p>
+                   
+               </div>
+               
+           </div>
+                      <div class="sec22">
+               <div class="left">
+                   <h3>2018-2019</h3>
+               </div>
+               <div class="right">
+                  <h3> site web2.. </h3>
+                  <p> ......</p>
+                  <p> ......</p>
+                  <p> ......</p>
+                   
+               </div>
+               
+           </div>
+           <h2>Parcours Scolaire</h2>
+             <div class="sec22">
+               <div class="left">
+                   <h3>2014-2015</h3>
+               </div>
+               <div class="right">
+                  <h3> licience ...... </h3>
+                  <p> ......</p>
+                  <p> ......</p>
+                  <p> ......</p>
+                   
+               </div>
+               
+           </div>
+                        <div class="sec22">
+               <div class="left">
+                   <h3>2016-2017</h3>
+               </div>
+               <div class="right">
+                  <h3> Master ...... </h3>
+                  <p> ......</p>
+                  <p> ......</p>
+                  <p> ......</p>
+                   
+               </div>
+               
+           </div>
+           
+          </div>  
+              
+       </section>
+       <section id="sec3" class="sec3">
+           
+           <h1>Compétence et niveau</h1>
+           <div class="sec31">
+              <div class="sec31left">
+                <div class="sec311">
+                    <div class="sec311left"><h3>Compétence</h3></div>
+                    <div class="sec311right"><h3>Niveau</h3></div>
+                </div>  
+                <div class="sec311">
+                    <div class="sec311left"><h3>html</h3></div>
+                    <div class="sec311right"><p>avance</p></div>
+                </div> 
+ 
+              </div>
+              <div class="sec31right">
+                <div class="sec311">
+                    <div class="sec311left"><h3>Compétence</h3></div>
+                    <div class="sec311right"><h3>Niveau</h3></div>
+                </div>  
+                <div class="sec311">
+                    <div class="sec311left"><h3>sql</h3></div>
+                    <div class="sec311right"><p>avance</p></div>
+                </div> 
+ 
+              </div>
+               
+           </div>
+       </section>
+           <script>
+        $(document).ready(function(){
+    $("#link1").click(function(){
+        $path=$("#sec1").offset().top;
+        $("body").animate({scrollTop:$path,1000})
+    });
+     $("#link2").click(function(){
+        $path=$("#sec2").offset().top;
+        $("body").animate({scrollTop:$path,1000})
+    });
+     $("#link3").click(function(){
+        $path=$("#sec3").offset().top;
+        $("body").animate({scrollTop:$path,1000})
+    });
+        });
+    </script>
+   </article>
+   <footer>
+     <p> Copyright 2018 Abdoune's Bro </p>  
+       
+   </footer>
+    
+</body>
+
+</html>
